@@ -6,7 +6,7 @@ function preload(){
   img=loadImage('https://www.i2clipart.com/cliparts/a/e/6/4/clipart-target-512x512-ae64.png')
 }
 function setup() {
-    var canv=createCanvas(900, 500);
+    var canv=createCanvas(750, 500);
      canv.parent("sketch-holder");
     vehicle = new Vehicle(200, 200);
 }
