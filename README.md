@@ -1,4 +1,4 @@
-# Target-Seeking-s-Project
+# Target-Seeking-Project
 simple website to showcase following target algorithm.
 
 ## Try it Now
