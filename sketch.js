@@ -6,7 +6,7 @@ function preload(){
   img=loadImage('https://www.i2clipart.com/cliparts/a/e/6/4/clipart-target-512x512-ae64.png')
 }
 function setup() {
-    var canv=createCanvas(750, 500);
+    var canv=createCanvas(1400, 900);
      canv.parent("sketch-holder");
     vehicle = new Vehicle(200, 200);
 }
@@ -14,8 +14,8 @@ function setup() {
 function draw() {
   background(51);
    
-    textSize(52);
-  text("Seek the target.",50,87);
+  textSize(52);
+  text("Seek the target.",100,87);
 
   fill(255, 0, 255);
   noStroke();
@@ -23,14 +23,14 @@ function draw() {
   imgX=target.x-img_siz/2;
   imgY=target.y-img_siz/2;
 
-  image(img,imgX,imgY,img_siz,img_siz);
+  //image(img,imgX,imgY,img_siz,img_siz);
 
   vehicle.seek(target);
   vehicle.update();
   vehicle.show();
   textSize(19);
   noStroke();
-  text("Abanob Raffet @2022",290,450);
+  text("Abanob Raffet @2022",1100,600);
 
 }
 
