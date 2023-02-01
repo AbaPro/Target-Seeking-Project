@@ -3,7 +3,10 @@ body{
     margin: 0;
     color: rgb(51,51,51);
     background-color: rgb(51,51,51);
+    overflow: hidden;
 }
+
+
 .desc{
     color: f8f8f8;
     width: auto;
